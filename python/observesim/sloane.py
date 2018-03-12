@@ -3,6 +3,8 @@ import subprocess
 import numpy as np
 import matplotlib.pyplot as plt
 import PyAstronomy.pyasl as pyasl
+#import mpl_toolkits
+#mpl_toolkits.__path__.append('/Users/jsobeck/anaconda/lib/python3.6/site-packages/mpl_toolkits/')
 import mpl_toolkits.basemap as basemap
 
 

@@ -7,6 +7,12 @@ from __future__ import absolute_import
 
 # Perform an SDSS-V simulation
 
+#import matplotlib
+#matplotlib.use('agg')
+import os
+cwd = os.getcwd()
+os.environ['OBSERVESIM_DIR'] = cwd
+#print (os.environ)
 import argparse
 import numpy as np
 import fitsio
